@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="Billet_Measurement"/>
+  <qresource/>
+  <qresource prefix="image">
+    <file>image/设置参数.png</file>
+    <file>image/开关 关(1).png</file>
+    <file>image/camera.ico</file>
+    <file>image/开关 开(1).png</file>
+    <file>image/Green_16px.ico</file>
+    <file>image/Red_16px.ico</file>
+    <file>image/Setting_32px.ico</file>
+    <file>image/companylogo.png</file>
+    <file>image/connect.ico</file>
+    <file>image/disconnect.ico</file>
+    <file>image/logo.ico</file>
+    <file>image/pasue.ico</file>
+    <file>image/start.ico</file>
+  </qresource>
+  <qresource/>
+</RCC>
