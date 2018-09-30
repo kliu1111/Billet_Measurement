@@ -1,7 +1,31 @@
-﻿生成启动时间为 2018/9/29 13:37:24。
-     1>项目“H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement_v8\Billet_Measurement\Billet_Measurement.vcxproj”在节点 2 上(Build 个目标)。
-     1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement_v8\x64\Debug\\Billet_Measurement.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.0\5.5\msvc2013_64\lib /LIBPATH:"C:\Program Files\Basler\pylon 5\Development\lib\x64" /LIBPATH:D:\SVN\3rdLib\opencv3.0\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib opencv_cuda300.lib opencv_superres300.lib opencv_cudafeatures2d300.lib opencv_cudaoptflow300.lib opencv_cudabgsegm300.lib opencv_cudastereo300.lib qextserialport.lib opencv_cudacodec300.lib opencv_cudawarping300.lib opencv_cudalegacy300.lib opencv_objdetect300.lib opencv_video300.lib opencv_cudaimgproc300.lib opencv_cudafilters300.lib opencv_cudaarithm300.lib opencv_calib3d300.lib opencv_features2d300.lib opencv_flann300.lib opencv_highgui300.lib opencv_videoio300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_core300.lib opencv_cudev300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement_v8\x64\Debug\Billet_Measurement.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement_v8\x64\Debug\Billet_Measurement.lib" /MACHINE:X64 x64\Debug\Basler.obj
+﻿生成启动时间为 2018/9/30 13:17:03。
+     1>项目“H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement\Billet_Measurement\Billet_Measurement.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing billet_measurement.h...
+         Uic'ing billet_measurement.ui...
+         Moc'ing SetTriggerParam.h...
+         Moc'ing SetCamPara.h...
+         Rcc'ing billet_measurement.qrc...
+         Uic'ing SetCamPara.ui...
+         Uic'ing SetTriggerParam.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtWidgets /I"C:\Program Files\Basler\pylon 5\Development\include" /ID:\SVN\3rdLib\opencv3.0\include /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Basler.cpp billet_measurement.cpp GeneratedFiles\Debug\moc_billet_measurement.cpp GeneratedFiles\Debug\moc_SetCamPara.cpp GeneratedFiles\Debug\moc_SetTriggerParam.cpp main.cpp SetCamPara.cpp SetTriggerParam.cpp
+         Basler.cpp
+         billet_measurement.cpp
+     1>h:\kliuworkspace\billet_measurement_vs\billet_measurement\billet_measurement\billet_measurement.h(8): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         moc_billet_measurement.cpp
+     1>h:\kliuworkspace\billet_measurement_vs\billet_measurement\billet_measurement\generatedfiles\debug\../../billet_measurement.h(8): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         moc_SetCamPara.cpp
+         moc_SetTriggerParam.cpp
+         main.cpp
+     1>h:\kliuworkspace\billet_measurement_vs\billet_measurement\billet_measurement\billet_measurement.h(8): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         SetCamPara.cpp
+         SetTriggerParam.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtWidgets /I"C:\Program Files\Basler\pylon 5\Development\include" /ID:\SVN\3rdLib\opencv3.0\include /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_billet_measurement.cpp
+         qrc_billet_measurement.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement\x64\Debug\\Billet_Measurement.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.0\5.5\msvc2013_64\lib /LIBPATH:"C:\Program Files\Basler\pylon 5\Development\lib\x64" /LIBPATH:D:\SVN\3rdLib\opencv3.0\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib opencv_cuda300.lib opencv_superres300.lib opencv_cudafeatures2d300.lib opencv_cudaoptflow300.lib opencv_cudabgsegm300.lib opencv_cudastereo300.lib qextserialport.lib opencv_cudacodec300.lib opencv_cudawarping300.lib opencv_cudalegacy300.lib opencv_objdetect300.lib opencv_video300.lib opencv_cudaimgproc300.lib opencv_cudafilters300.lib opencv_cudaarithm300.lib opencv_calib3d300.lib opencv_features2d300.lib opencv_flann300.lib opencv_highgui300.lib opencv_videoio300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_core300.lib opencv_cudev300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement\x64\Debug\Billet_Measurement.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement\x64\Debug\Billet_Measurement.lib" /MACHINE:X64 x64\Debug\Basler.obj
          x64\Debug\billet_measurement.obj
          x64\Debug\moc_billet_measurement.obj
          x64\Debug\moc_SetCamPara.obj
@@ -10,9 +34,10 @@
          x64\Debug\main.obj
          x64\Debug\SetCamPara.obj
          x64\Debug\SetTriggerParam.obj
-         Billet_Measurement.vcxproj -> H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement_v8\x64\Debug\Billet_Measurement.exe
-     1>已完成生成项目“H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement_v8\Billet_Measurement\Billet_Measurement.vcxproj”(Build 个目标)的操作。
+         LINK : 没有找到 H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement\x64\Debug\\Billet_Measurement.exe 或上一个增量链接没有生成它；正在执行完全链接
+         Billet_Measurement.vcxproj -> H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement\x64\Debug\Billet_Measurement.exe
+     1>已完成生成项目“H:\KliuWorkspace\Billet_Measurement_VS\Billet_Measurement\Billet_Measurement\Billet_Measurement.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.92
+已用时间 00:00:11.24
