@@ -372,6 +372,7 @@ void Basler::GrabThreadFunction()
 					QImage RightImg = QImage((unsigned char *)(RightptrGrabResult->GetBuffer()), RightptrGrabResult->GetWidth(), RightptrGrabResult->GetHeight(), QImage::Format_Indexed8);
 
 					LeftLabelAdd->setPixmap(QPixmap::fromImage(LeftImg).scaled(LeftLabelAdd->size(), Qt::KeepAspectRatioByExpanding));
+					//LeftLabelAdd->setText("11111111111111111111");
 					LeftLabelAdd->show();
 					RightLabelAdd->setPixmap(QPixmap::fromImage(RightImg).scaled(RightLabelAdd->size(), Qt::KeepAspectRatioByExpanding));
 					RightLabelAdd->show();
@@ -423,10 +424,12 @@ void Basler::GetLeftLabelAddress(QLabel &LeftLabelPointer)
 {
 	LeftLabelAdd = &LeftLabelPointer;
 }
+
 void Basler::GetRightLabelAddress(QLabel &RightLabelPointer)
 {
 	RightLabelAdd = &RightLabelPointer;
 }
+
 //void Basler::GetLeftDownLabelAddress(QLabel &LeftDownLabelPointer)
 //{
 //	LeftDownLabelAdd = &LeftDownLabelPointer;

@@ -17,6 +17,8 @@ Billet_Measurement::Billet_Measurement(QWidget *parent)
 	SetCamWindow->setWindowFlags(Qt::Window);
 	SetTriggerWindow = new SetTriggerParam(this);
 	SetTriggerWindow->setWindowFlags(Qt::Window);
+
+	//£¿£¿
 	AllocConsole();
 	freopen("CONOUT$", "w+t", stdout);
 	InitSlot();
